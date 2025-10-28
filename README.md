@@ -1,25 +1,56 @@
-# FocusFlow
+# 🧘‍♀️ Focus-Flow
 
-A productivity and self-awareness dashboard built with Streamlit. Log your rest breaks, meal times, and to-do lists while visualizing patterns to improve your work-life balance.
+**A simple tool to track and improve your daily productivity.**  
+Focus-Flow is a lightweight project designed to help you log your focus sessions, visualize your patterns, and reflect on your work or study habits.
+
+---
+
+## 🎯 Purpose
+
+This project was created to encourage healthy productivity habits. By recording your focus sessions, you can identify your most productive hours, evaluate your consistency, and improve your time management.
+
+---
 
 ## 🚀 Features
-- Log rest and meal breaks
-- Manage daily to-do lists
-- Visualize activity trends with Plotly
-- Track time intervals using Python's datetime
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- OS
-- Datetime
+- ⏱️ Log focus sessions with date and duration
+- 📊 View session history and trends
+- 🧠 Reflect on your concentration habits
+- 🐍 Simple Python code, easy to customize
 
-## 📦 Installation
+---
 
-```bash
-git clone https://github.com/your-username/focusflow.git
-cd focusflow
-pip install -r requirements.txt
-streamlit run app.py
+## 📚 Technologies Used
+
+- **Python**
+- **Pandas**
+- **Matplotlib**
+
+---
+
+## 📁 Project Structure
+
+- `focus_flow.py` — Main script for logging and visualizing sessions
+- `focus_data.csv` — File where session data is stored
+- `README.md` — Project documentation
+
+
+---
+
+## 🛠️ How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/importalline/Focus-Flow.git
+   cd Focus-Flow
+   ```
+
+2. **Install dependencies**
+   Make sure you have Python 3 installed. Then run:
+   ```bash
+   pip install pandas matplotlib
+   ```
+
+3. **Run the script**
+   ```bash
+   python focus_flow.py
